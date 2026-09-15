@@ -8,7 +8,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "server": "31.58.181.88",
       "server_port": 8443,
-      "uuid": "f62a8f0e-f8db-48a6-8f52-84922aa63368",
+      "uuid": "71470f80-ee36-47e0-8089-0987657ea5d4",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -25,8 +25,31 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+      "server": "31.56.189.27",
+      "server_port": 2087,
+      "uuid": "df9f5aca-eda0-428f-a752-e53866153d12",
+      "tls": {
+        "enabled": true,
+        "server_name": "srv-21bac9.vless.monster",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "freegrpc"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -41,26 +64,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-      "server": "31.56.189.27",
-      "server_port": 2087,
-      "uuid": "df9f5aca-eda0-428f-a752-e53866153d12",
-      "tls": {
-        "enabled": true,
-        "server_name": "srv-21bac9.vless.monster",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "freegrpc"
-      }
-    },
-    {
       "type": "hysteria2",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
       "server": "85.204.107.181",
@@ -69,7 +72,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hopp-romania-new.roxa.org",
-        "insecure": false
+        "insecure": true
       }
     },
     {
