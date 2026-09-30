@@ -6,6 +6,20 @@
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe",
+      "server": "172.64.229.170",
+      "server_port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe",
       "server": "5.253.42.164",
       "server_port": 40443,
       "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
@@ -26,7 +40,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
       "server": "5.253.28.240",
       "server_port": 2443,
       "uuid": "5e679ccd-1586-4d5f-b87b-48251046cad8",
@@ -50,7 +64,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 04 - xiaohe",
       "server": "5.253.28.240",
       "server_port": 40443,
       "uuid": "405b964e-a2d2-454f-aaaa-711cc218897c",
@@ -76,7 +90,8 @@
         "auto",
         "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe",
         "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe",
-        "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
+        "🇨🇾 塞浦路斯 (Cyprus) 04 - xiaohe"
       ]
     },
     {
@@ -85,7 +100,8 @@
       "outbounds": [
         "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe",
         "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe",
-        "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
+        "🇨🇾 塞浦路斯 (Cyprus) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
