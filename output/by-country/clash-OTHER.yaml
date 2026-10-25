@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.70.21
+  server: 104.16.10.2
   port: 443
   udp: true
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   tls: true
-  servername: jp3.yohototo.top
+  servername: v2ray.simspeedup.com
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /ws
     headers:
-      Host: jp3.yohototo.top
+      Host: v2ray.simspeedup.com
 proxy-groups:
 - name: PROXIES
   type: select
