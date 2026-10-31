@@ -4,25 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
-  server: 13.143.239.127
+- name: 🌐 其他地区 (Other) 01 - xiaohe
+  server: 104.17.44.17
   port: 443
   udp: true
-  type: hysteria2
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  sni: nl1.obxodvpn.us
-  skip-cert-verify: true
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 rules:
 - MATCH,PROXIES
