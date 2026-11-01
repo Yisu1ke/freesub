@@ -13,18 +13,13 @@ proxies:
   sni: https%3a%2f%2ft.me%2fclashv8%f0%9f%87%a8%f0%9f%87%b3
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  server: 165.154.63.139
+  server: 202.146.222.29
   port: 443
   udp: true
-  type: vless
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
-    short-id: ca4aedd4
-  servername: www.amazon.com
-  client-fingerprint: firefox
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af%d1%91%d1%80%d2%b9%d2%af%d1%96
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   server: 31.57.248.176
   port: 50160
@@ -39,29 +34,38 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2foneclickvpnkeys
+  sni: https://t.me/wangcai2
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
-  server: 202.146.222.29
+  server: 103.247.28.203
   port: 443
   udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2üá
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
-  server: 47.244.120.197
-  port: 23026
-  udp: true
-  type: vmess
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 64726966-0000-4000-8000-740000000000
+  tls: true
+  servername: parsa-panel-dy55x.railway1385-2a46.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /arki
+    path: /
     headers:
-      Host: 47.244.120.197
+      Host: parsa-panel-dy55x.railway1385-2a46.workers.dev
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
+  server: 172.67.149.199
+  port: 443
+  udp: true
+  type: vless
+  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
+  tls: true
+  servername: px2.5ibtc.cn
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+    headers:
+      Host: px2.5ibtc.cn
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
   server: 152.175.6.229
   port: 31884
