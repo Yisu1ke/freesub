@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.27.97.42",
-      "server_port": 8443,
-      "uuid": "3692de53-42e6-4aed-a522-40ec355dcd2f",
+      "tag": "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe",
+      "server": "172.64.88.98",
+      "server_port": 443,
+      "uuid": "afa524de-2b93-4be9-b846-6bc88d8a2ce1",
       "tls": {
         "enabled": true,
-        "server_name": "free.sahanwickramasinghe.com",
+        "server_name": "1v5Vp5jsQ611A5dsm.PAges.dEV",
         "insecure": false,
         "alpn": [
           "http/1.1"
@@ -23,8 +23,9 @@
       },
       "transport": {
         "type": "ws",
+        "path": "/vl/fbo164EXEqNcjQ9WdWcK?ed=2560",
         "headers": {
-          "Host": "free.sahanwickramasinghe.com"
+          "Host": "1v5vp5jsq611a5dsm.pages.dev"
         }
       }
     },
@@ -33,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
